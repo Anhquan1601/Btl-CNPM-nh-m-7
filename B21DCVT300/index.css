@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0,0,0,0.1);
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+}
+.container .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 0;
+}
+.container .top .imgBx .box{
+    position: relative;
+    width:70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .imgBx .box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.container .top .profileText {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profileText .name{
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    color: #333;
+}
+.container .top .profileText .specialization{
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+.container .contentBox{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentBox h1{
+    border-left: 4px solid #091182;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.container .contentBox ul{
+    position: relative;
+    margin: 10px 0;
+}
+.container .contentBox ul li{
+    list-style: none;
+    margin: 10px 0;
+    line-height: 1em;;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+.right{
+    padding-left: 50px ;
+}
+ h2{
+    border-left: 4px solid #091182;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
