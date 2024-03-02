@@ -95,21 +95,36 @@ body{
 }
  h2{
     border-left: 4px solid #091182;
+    font-size: 2em;
     padding-left: 10px;
     line-height: 1em;
-    font-weight: 300;
+    font-weight: 600;
     color: #333;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 .university{
-    width: 50%;
-    box-shadow: 1px 1px 1px #aaa ;
+    width: 100%;
+    box-shadow: 5px 5px 5px #767575 ;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #333;
+    padding: 10px;
+}
+.major{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #333;
 }
 .period{
     border-left: 2px solid #000000;
-    padding-left: 5px;
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-left: 3px;
+    color: #333;
 }
+
+
 
 
 
