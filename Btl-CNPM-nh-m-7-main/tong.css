@@ -1,0 +1,49 @@
+:root {
+    --bg1: #9b59b6;
+    --bg2: #3498db;
+    --bg: #D7E1EC;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    margin: 5px 5px 5px 5px;
+    
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.title {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+}

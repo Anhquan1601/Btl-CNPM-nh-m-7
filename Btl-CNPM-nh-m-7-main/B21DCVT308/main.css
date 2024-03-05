@@ -1,0 +1,111 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+.first {
+    display: block;
+    color: aqua;
+    background-color: rgb(5, 106, 214);
+    height: 900px;
+    width: 15%  ;
+}
+.second {
+    display: block;
+    color: blue;
+    background-color: aliceblue;
+    height: 900px;
+    width: 45%;
+}
+
+.first img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 20px 30px 10px 30px;
+    position: relative;
+}
+
+.first br {
+    color: aliceblue;
+}
+
+.first h2 {
+    margin-left: 30px;
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+.first hr {
+    margin-top: 0;
+    width: 75%;
+    background-color: black;
+}
+
+.first i {
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.first p {
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.first ul {
+    margin: 0 0 5px 0;
+}
+.first p {
+    font-family: "Nunito", sans-serif;
+    margin: 0 0 1px 20px;
+}
+.first li {
+    color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    margin: 2px;
+}
+
+.second h1 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(5, 106, 214);
+    font-size: 50px;
+    margin-left: 50px;
+}
+.second h2 {
+    font-family: "Oswald", sans-serif;
+    color:  rgb(5, 106, 214);
+    margin-left: 50px;
+}
+.second p {
+    font-family: "Oswald", sans-serif;
+    color:  rgb(5, 106, 214);
+}
+.line {
+    margin-top: 0;
+    width:10%;
+}
+.second hr {
+    margin-top: 0;
+    width: 85%;
+    background-color: rgb(5, 106, 214);
+    height: 2px;
+}
+.second p {
+    margin: 30px 0px 0px 50px;
+    font-size: 20px;
+}
+.second h2 {
+    margin: 0 0 20px 50px;
+}
+.second div {
+    margin: 200px 0 200px 0;
+}
+.second h1 {
+    margin: 30px 0px 30px 50px;
+}
