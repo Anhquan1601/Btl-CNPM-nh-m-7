@@ -43,15 +43,15 @@ nav .nav-name a{
 ul{
     display: flex;
     gap: 1.5rem;
-    align-items: cemter;
+    align-items: center;
     list-style: none;
-    transition: left 0.3s;
 }
 .msv{
     font-weight: 600;
     color: #ffffff;
 }
 .info-container{
+    
     min-height: 100vh;
     max-width: 1200px;
     margin: auto;
@@ -85,8 +85,6 @@ ul{
 .title img{
     height: 2.7rem;
     width: 2.7rem;
-    
-    
 }
 
 
@@ -105,7 +103,7 @@ ul{
 
 .image img{
     width: min(25rem,90%);
-    animation: changeBoxShadowColor 9s infinite alternate;
+    
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(102, 252, 242, 0.758);
 }
@@ -138,8 +136,6 @@ ul{
 }
 .contact-logo ul li{
     align-items: center;
-    display: flex;
-    justify-content: center;
     margin-inline-start: 0.5rem;
 }
 .contact-logo ul li img{
@@ -152,11 +148,15 @@ ul{
    margin-top: 1rem;
    
 }
+a{
+    text-decoration: none;
+}
 #fb{
     background: linear-gradient(to right, #1877F2, #1877F2 50%, #1877F2);
-    background-clip: text;
+   
     -webkit-background-clip: text;
     color: transparent;
+    text-decoration: none;
 }
 #ig{
     background: linear-gradient(to right, #FF0080, #FF529B, #9019FF, #405DE6);
