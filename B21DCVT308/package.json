@@ -1,0 +1,19 @@
+{
+  "name": "backend0",
+  "version": "1.0.0",
+  "description": "Kim Trung Nam backend0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Kim Trung Nam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
