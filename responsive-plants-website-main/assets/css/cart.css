@@ -1,0 +1,59 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,600;1,700&display=swap');
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+.cart{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    z-index: 1000;
+}
+.cart h2 {
+    margin-bottom: 50px;
+}
+.cart table{
+    width: 100%;
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+
+}
+.cart table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+.cart table thead tr th:last-child{
+    text-align: right;
+
+}
+.card table tbody tr td:last-child{
+    text-align: right ;
+}
+/*-----------------------------*/
+.cart{
+    position: fixed;
+    height: 100vh;
+    width: 400px;
+    right: 0;
+    top: 0;
+    background-color: rgb(238, 224, 224);
+    padding: 12px 20px;
+    overflow-y: scroll;
+    right: -100%;
+    transition: all 0.3s ease;
+}
+.cart i {
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: flex;
+    align-items:flex-start;
+
+}
+.contact__content label{
+
+    font-weight: bold  ;
+    color: black;
+}
